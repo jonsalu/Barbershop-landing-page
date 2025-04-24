@@ -44,3 +44,13 @@
     color:inherit;
     
 }
+
+@media (max-width: 425px){
+    .logo h1{
+        font-size: medium;
+    }
+
+    .nav li{
+        font-size:medium;
+    }
+}

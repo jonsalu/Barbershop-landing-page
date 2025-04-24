@@ -3,7 +3,7 @@ import './profile.css'
 
 const Profile = () => {
     return(
-        <div className="profile">
+        <div className="profile" id="profile">
             <div className="profile-text">
                 <h1>Quem sou eu</h1>
                 <p>Sou Claudio, especialista em cortes e cuidados masculinos. Minha missão é proporcionar estilo e confiança aos meus clientes, unindo técnicas modernas com um atendimento personalizado. Seja bem-vindo à minha barbearia, onde tradição e qualidade se encontram.

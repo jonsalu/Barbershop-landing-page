@@ -5,16 +5,16 @@ import { SlMustache } from "react-icons/sl";
 
 const Main = () => {
     return(
-        <div className="main">
+        <div className="main" id="main">
             <div className="main-header">
                 <Header />
             </div>
             <div className="main-content">
                 <div className="sidebar">
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Quem sou eu</a></li>
+                        <li><a href="#main">Início</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#profile">Quem sou eu</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </div>

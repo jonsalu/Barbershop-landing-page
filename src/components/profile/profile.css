@@ -37,3 +37,19 @@
     border-radius: 80%;
     border: solid 5px red;
 }
+
+@media (max-width: 425px){
+    .profile{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .profile-text{
+        width: 90%;
+    }
+
+    .profile-img{
+        width: 100%;
+    }
+}

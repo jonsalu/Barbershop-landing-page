@@ -82,3 +82,42 @@
     font-size:x-large;
 }
 
+@media (max-width: 425px){
+    .sidebar{
+        position: initial;
+        width: 90%;
+    }
+
+    .sidebar ul{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-between;
+    }
+    
+    .sidebar li{
+        padding: 0;
+        list-style: none;
+        font-size:small;
+    }
+
+    .sidebar a:hover{
+        color: white;
+        font-size:x-large;
+    }
+
+    .main-logo{
+        font-size: medium;
+        width: 90%;
+    }
+
+    .main-logo img{
+        height: auto;
+        width: 40%;
+    }
+
+    .main{
+        background-position: center;
+    }
+}
+
